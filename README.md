@@ -12,17 +12,16 @@ A Streamlit web application that analyzes your Letterboxd movie ratings and reve
 - **Rich Visualizations:** Explore your taste through interactive pie charts and scatter plots.
 - **Personal Data Upload:** Upload your own `ratings.csv` from Letterboxd to get a personalized analysis.
 
-```markdown
 ## 🚀 How to Run Locally
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/DeimosSO/letterboxd-streamlit-dashboard
+    git clone [https://github.com/DeimosSO/letterboxd-streamlit-dashboard](https://github.com/DeimosSO/letterboxd-streamlit-dashboard)
     ```
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd streamlit-movie-analyzer
+    cd letterboxd-streamlit-dashboard
     ```
 
 3.  **Create and activate a virtual environment:**
@@ -39,13 +38,13 @@ A Streamlit web application that analyzes your Letterboxd movie ratings and reve
 
 5.  **Download the IMDb data:**
     * Create a folder named `imdb_data`.
-    * Download the genre CSV files from a source like [Kaggle](https://www.kaggle.com/datasets/rajugc/imdb-movies-dataset-based-on-genre) and place them inside the `imdb_data` folder.
+    * Download the genre CSV files from a source like [Kaggle](https://www.kaggle.com/datasets/thedevastator/imdb-movies-from-2000-to-2022) and place them inside the `imdb_data` folder.
 
 6.  **Run the Streamlit app:**
     ```bash
-    streamlit run analiz.py
+    # Use this command if 'streamlit' is not in your PATH
+    python -m streamlit run analiz.py
     ```
-
 ## 📊 Data
 
 -   **Personal Ratings:** Requires a `ratings.csv` file exported from your Letterboxd account.
