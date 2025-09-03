@@ -32,7 +32,7 @@ A Streamlit web application that analyzes your Letterboxd movie ratings and reve
 
 4.  **Download the IMDb data:**
     * Create a folder named `imdb_data`.
-    * Download the genre CSV files from [this source](https://www.kaggle.com/datasets/rajugc/imdb-movies-dataset-based-on-genre) (or a similar one) and place them inside the `imdb_data` folder.
+    * Download the genre CSV files from (https://www.kaggle.com/datasets/rajugc/imdb-movies-dataset-based-on-genre) (or a similar one) and place them inside the `imdb_data` folder.
 
 5.  **Run the Streamlit app:**
     ```bash
