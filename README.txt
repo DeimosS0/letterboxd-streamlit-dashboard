@@ -2,7 +2,7 @@
 
 A Streamlit web application that analyzes your Letterboxd movie ratings and reveals your unique cinematic personality.
 
-[![Streamlit App]
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://letterboxd-replay.streamlit.app)
 
 ## 🌟 Features
 
