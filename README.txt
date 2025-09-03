@@ -16,7 +16,7 @@ A Streamlit web application that analyzes your Letterboxd movie ratings and reve
 
 1.  **Clone the repository:**
     ```bash
-    git clone 
+    git clone [https://github.com/DeimosS0/letterboxd-streamlit-dashboard.git](https://github.com/DeimosS0/letterboxd-streamlit-dashboard.git)
     ```
 
 2.  **Create and activate a virtual environment (Recommended):**
