@@ -12,6 +12,7 @@ A Streamlit web application that analyzes your Letterboxd movie ratings and reve
 - **Rich Visualizations:** Explore your taste through interactive pie charts and scatter plots.
 - **Personal Data Upload:** Upload your own `ratings.csv` from Letterboxd to get a personalized analysis.
 
+```markdown
 ## 🚀 How to Run Locally
 
 1.  **Clone the repository:**
@@ -19,22 +20,28 @@ A Streamlit web application that analyzes your Letterboxd movie ratings and reve
     git clone [https://github.com/DeimosS0/letterboxd-streamlit-dashboard](https://github.com/DeimosS0/letterboxd-streamlit-dashboard)
     ```
 
-2.  **Create and activate a virtual environment (Recommended):**
+2.  **Navigate to the project directory:**
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    cd streamlit-movie-analyzer
     ```
 
-3.  **Install the dependencies:**
+3.  **Create and activate a virtual environment:**
+    ```bash
+    # For Windows
+    python -m venv venv
+    venv\Scripts\activate
+    ```
+
+4.  **Install the dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Download the IMDb data:**
+5.  **Download the IMDb data:**
     * Create a folder named `imdb_data`.
-    * Download the genre CSV files from (https://www.kaggle.com/datasets/rajugc/imdb-movies-dataset-based-on-genre) (or a similar one) and place them inside the `imdb_data` folder.
+    * Download the genre CSV files from a source like [Kaggle](https://www.kaggle.com/datasets/rajugc/imdb-movies-dataset-based-on-genre) and place them inside the `imdb_data` folder.
 
-5.  **Run the Streamlit app:**
+6.  **Run the Streamlit app:**
     ```bash
     streamlit run analiz.py
     ```
